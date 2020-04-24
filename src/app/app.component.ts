@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world';
-  TestString : string;
+  tweet = {
+    body:'Here is the body of the tweet',
+    isLiked: true,
+    likesCount:10
+  }
 }
