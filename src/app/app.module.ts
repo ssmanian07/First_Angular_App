@@ -13,6 +13,7 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { TitleCasePipe } from './title-case.pipe';
 import { LikeComponent } from './like/like.component';
 import { ZippyComponent } from './zippy/zippy.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ZippyComponent } from './zippy/zippy.component';
     FavoriteComponent,
     TitleCasePipe,
     LikeComponent,
-    ZippyComponent    
+    ZippyComponent,
+    ContactFormComponent    
   ],
   imports: [
     BrowserModule,
