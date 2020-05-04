@@ -15,6 +15,8 @@ import { TitleCasePipe } from './title-case.pipe';
 import { LikeComponent } from './like/like.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { NewCourseFormComponent } from './new-course-form/new-course-form.component';
+
 
 
 @NgModule({
@@ -28,7 +30,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     TitleCasePipe,
     LikeComponent,
     ZippyComponent,
-    ContactFormComponent    
+    ContactFormComponent,
+    NewCourseFormComponent    
   ],
   imports: [
     BrowserModule,
